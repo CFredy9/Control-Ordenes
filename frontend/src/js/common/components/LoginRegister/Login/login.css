@@ -33,6 +33,7 @@
 }
 .blue-gradient-bg{
     height: 100vh;
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #3ac1ff);
+    background-color: rgb(77, 190, 224);
+    /*background: #007bff;
+    background: linear-gradient(to right, #0062E6, #3ac1ff);*/
 }

@@ -53,7 +53,20 @@ body {
     font-size: 1rem;
     font-weight: 300;
     color: #5a6169;
+    min-height: 100vh;
+    background: var(--white); 
+    /*background-image:url('https://fututienda.com/images/convertirse-en-vendedor-fututienda.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    opacity: 1;
+    
+    
 }
+
+
 
 a {
     text-decoration: none
@@ -118,6 +131,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .h6, h6 {
     font-size: 1rem
+}
+.h7 {
+    color: rgb(252, 33, 4);
 }
 
 .lead {
@@ -2555,7 +2571,8 @@ i.material-icons {
 }
 
 .navbar {
-    padding: .75rem 1.5rem
+    padding: .75rem 1.5rem;
+    background-color: rgb(77, 190, 224);
 }
 
 .navbar-brand {
@@ -5141,7 +5158,7 @@ a.text-accent:focus, a.text-accent:hover {
 }
 
 .main-navbar .navbar {
-    height: 3.75rem
+    height: 3.75rem;
 }
 
 .main-navbar .navbar > * {
@@ -5262,7 +5279,7 @@ a.text-accent:focus, a.text-accent:hover {
     top: 0;
     position: fixed;
     height: 100vh;
-    background: #fff;
+    background: rgb(77, 190, 224);
     z-index: 107000;
     will-change: transform;
     transition: -webkit-transform .2s ease-in-out;
@@ -5321,7 +5338,7 @@ a.text-accent:focus, a.text-accent:hover {
 .main-sidebar .nav .nav-item .nav-link {
     border-bottom: 1px solid #e1e5eb;
     font-weight: 400;
-    color: #3d5170;
+    color: #090a0c;
     padding: .9375rem 1.5625rem
 }
 
@@ -5331,7 +5348,7 @@ a.text-accent:focus, a.text-accent:hover {
     text-align: center;
     vertical-align: middle;
     will-change: color;
-    color: #cacedb;
+    color: #0b0c0c;
     -webkit-transition: color .2s ease;
     transition: color .2s ease;
     margin-right: .375rem
@@ -5344,8 +5361,8 @@ a.text-accent:focus, a.text-accent:hover {
 
 .main-sidebar .nav .nav-item.active, .main-sidebar .nav .nav-item .nav-link.active, .main-sidebar .nav .nav-item .nav-link:hover, .main-sidebar .nav .nav-item:hover {
     box-shadow: inset .1875rem 0 0 #007bff;
-    background-color: #fbfbfb;
-    color: #007bff
+    background-color: #a4dfee;
+    color: #033061
 }
 
 .main-sidebar .nav .nav-item.active i, .main-sidebar .nav .nav-item .nav-link.active i, .main-sidebar .nav .nav-item .nav-link:hover i, .main-sidebar .nav .nav-item:hover i {

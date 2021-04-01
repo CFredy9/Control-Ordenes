@@ -4,6 +4,25 @@
  * Copyright (c) 2014, Jason Chen
  * Copyright (c) 2013, salesforce.com
  */
+
+ .formulario {
+    margin: 0 auto;
+    align-content: center;
+    transform: translate(0,15%);
+    /*border-radius: 10px;
+    border: 1px solid #666666;*/
+    width: 30%;
+}
+
+.formulario2 {
+    margin: 0 auto;
+    align-content: center;
+    transform: translate(0, 5%);
+    /*border-radius: 10px;
+    border: 1px solid #666666;*/
+    width: 30%;
+}
+
 .ql-container {
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
@@ -4861,7 +4880,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 .navbar {
     position: relative;
-    padding: .5rem 1rem
+    padding: .5rem 1rem;
+    background-color: rgb(209, 220, 223);
 }
 
 .navbar, .navbar > .container, .navbar > .container-fluid {

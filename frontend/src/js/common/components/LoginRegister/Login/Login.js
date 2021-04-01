@@ -22,8 +22,8 @@ class Login extends Component {
         return (
             <div className="blue-gradient-bg">
                 <div className="d-flex flex-column align-items-center pt-3 bienvenida">
-                    <h1 className="text-center">Bienvenido a CianStarter</h1>
-                    <p>Página de login</p>
+                    <h1 className="text-center">Bienvenido</h1>
+                    <p>LOGIN</p>
                 </div>
                 <br />
                 <div className="login-wrapper">

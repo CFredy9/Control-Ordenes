@@ -9,12 +9,10 @@ class Footer extends Component {
                     <div className="row">
                         <ul className="nav">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/">
-                                    Home
-                                </Link>
+                                
                             </li>
                         </ul>
-                        <span className="copyright ml-auto my-auto mr-2">Ciancoders</span>
+                        
                     </div>
                 </div>
             </footer>

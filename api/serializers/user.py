@@ -22,6 +22,7 @@ class UserSerializer(serializers.ModelSerializer):
             'profile',
             'password'
         )
+        depth=1
 
 
 class UserReadSerializer(serializers.ModelSerializer):

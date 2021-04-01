@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'api',
     'mptt',
     'django.contrib.sites',
-    'djcelery',
+    #'djcelery',
     'debug_toolbar',
 ]
 
@@ -143,7 +143,7 @@ MEDIA_URL = '/media/'
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Guatemala'
 
 USE_I18N = True
 

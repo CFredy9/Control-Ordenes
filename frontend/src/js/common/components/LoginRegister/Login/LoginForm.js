@@ -22,7 +22,13 @@ const LoginForm = (props) => {
                 />
             </div>
             <div className="buttons-box">
-                <button type="submit" className="btn btn-primary m-1 align-self-center">Login</button>
+            <a 
+                    href='/#/'
+                    className='btn btn-secondary btn-sm mr-2'
+                    >
+                        Inicio
+                    </a>
+                <button type="submit" className="btn btn-primary m-1 align-self-center">Iniciar Sesión</button>
             </div>
         </form>
     );

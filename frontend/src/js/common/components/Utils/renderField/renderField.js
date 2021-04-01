@@ -10,7 +10,7 @@ import _ from "lodash";
 
 
 export const renderField = ({
-                                input, placeholder, type, meta: { touched, error },
+                                input, placeholder, type, meta: { touched, error }, disabled=false,
                             }) => {
     const invalid = touched && error;
     return (
@@ -19,6 +19,7 @@ export const renderField = ({
                 {...input}
                 placeholder={placeholder}
                 type={type}
+                disabled={disabled}
                 className={classNames('form-control', { 'is-invalid': invalid })}
             />
             {invalid && (
@@ -82,7 +83,7 @@ export const renderNumber = ({
 };
 
 export const renderCurrency = ({
-                                   input, meta: { touched, error }, prefix="Q ", placeholder,
+                                   input, meta: { touched, error }, prefix="Q ", placeholder,disabled=false,
                                }) => {
     const invalid = touched && error;
     return (
@@ -90,6 +91,7 @@ export const renderCurrency = ({
             <NumberFormat
                 className={classNames('form-control', { 'is-invalid': invalid })}
                 decimalScale={2}
+                disabled={disabled}
                 fixedDecimalScale
                 placeholder={placeholder}
                 value={input.value}

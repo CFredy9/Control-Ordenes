@@ -23,7 +23,7 @@
   "html": [
     {
 			"name": "homepage",
-      "title": "Everything is Awesome",
+      "title": "Proyecto",
       "template": "_default.html",
       "filename": "index.html"
     }
