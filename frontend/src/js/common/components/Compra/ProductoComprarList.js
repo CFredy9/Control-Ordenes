@@ -14,7 +14,7 @@ class ListadoProductos extends Component {
     }
 
     render() {
-        const { listar, data, data2, loader, eliminar, onSortChange, onSearchChange, match, total, confirmarCompra } = this.props;
+        const { listar, data, data2, loader, eliminar, onSortChange, onSearchChange, match, total, confirmarCompra, listarCarrito, listarProductos } = this.props;
         console.log("PROPS",this.props)
         return (
             <React.Fragment>
@@ -39,7 +39,7 @@ class ListadoProductos extends Component {
                         striped
                         data={data}
                         loading={loader}
-                        onPageChange={listar}
+                        onPageChange={listarProductos}
                         onSortChange={onSortChange}
                     >
                         <TableHeaderColumn
@@ -112,7 +112,7 @@ class ListadoProductos extends Component {
                         striped
                         data={data2}
                         loading={loader}
-                        onPageChange={listar}
+                        onPageChange={listarCarrito}
                         onSortChange={onSortChange}
                     >
                         <TableHeaderColumn
